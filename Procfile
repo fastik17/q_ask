@@ -1,1 +1,1 @@
-web: gunicorn answerly.wsgi --log-file -
+web: gunicorn answerly.wsgi
