@@ -1,5 +1,5 @@
-django=2.1
-psycopg=2.8.2
+django==2.1
+psycopg==2.8.2
 django-markdownify==0.8.0
 django-crispy-forms==1.7.2
 elasticsearch==7.0.0
