@@ -179,5 +179,3 @@ EMAIL_USE_TLS = config('E_TLS')
 SOCIAL_AUTH_GITHUB_KEY = config('GIT_KEY')
 SOCIAL_AUTH_GITHUB_SECRET = config('HUB_KEY')
 
-#Activation heroku
-django_heroku.settings(locals())
