@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block body %}
+  <div class="col-sm-12">
+    <h1 >Register for MyQA</h1 >
+    <form method="post" >
+      {% csrf_token %}
+      {{ form | crispy }}
+       <button type="submit" class="btn btn-primary">Login</button>
+    </form >
+  </div>
+<div class = "col-sm-1 col-xs-1 col-md-1 col-lg-1">
+  <p>
+        --OR--
+    </p>
+      <a href="{% url 'social:begin' 'github' %}">
+          <button type="button" class="btn btn-dark">Github</button>
+      </a>
+</div>
+{% endblock %}
