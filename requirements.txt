@@ -3,14 +3,17 @@ certifi==2019.3.9
 chardet==3.0.4
 coverage==4.5.3
 defusedxml==0.6.0
+dj-database-url==0.5.0
 Django==2.2
 django-crispy-forms==1.7.2
+django-heroku==0.3.1
 django-markdownify==0.8.0
 django-qanda==0.2.0
 docutils==0.14
 elasticsearch==7.0.0
 factory-boy==2.9.2
 Faker==1.0.5
+gunicorn==19.9.0
 idna==2.8
 lockfile==0.12.2
 Markdown==3.1
